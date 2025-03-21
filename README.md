@@ -1,4 +1,4 @@
-Depth-Estimation-Through-Generative-View-Synthesis
+
 This project aims to develop an advanced stereo image processing and depth estimation system by leveraging a combination of classical computer vision techniques and modern deep learning models. The system utilizes stereo matching algorithms to generate disparity maps, which are then used for accurate depth estimation. The project also incorporates generative view synthesis to enhance the quality of the depth maps and stereo images.
 
 Key Features:
@@ -27,28 +27,28 @@ Matplotlib: For plotting and visualizing results.
 
 How to Run:
 
-Navigate to the Project Directory by using cd command:
+1.Navigate to the Project Directory by using cd command:
 Example: cd filename
 
-Set up the Virtual Environment:
+2.Set up the Virtual Environment:
 python -m venv myen
 
-Activate the Virtual Environment:
+3.Activate the Virtual Environment:
 myen\Scripts\activate
 
-Upgrade pip:
+4.Upgrade pip:
 python.exe -m pip install --upgrade pip
 
-Install Required Packages:
+5.Install Required Packages:
 pip install opencv-python opencv-python-headless numpy torch torchvision num2words streamlit tensorflow matplotlib timm
 
-Clear Torch Cache (if necessary):
+6.Clear Torch Cache (if necessary):
 rm -rf ~/.cache/torch/hub
 
-Run the Python Script:
+7.Run the Python Script:
 python cashe.py
 
-Launch the Streamlit App:
+8.Launch the Streamlit App:
 streamlit run app.py
 
 This sequence ensures the environment is correctly configured, all dependencies are installed, and the project runs without errors. Let me know if you encounter any issues!
